@@ -1,0 +1,43 @@
+.greeting-container {
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.greeting-container h2 {
+  margin-top: 0;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.greeting-container p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.morning {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+  border: 2px solid #fdcb6e;
+  color: #2d3436;
+}
+
+.afternoon {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+  border: 2px solid #0984e3;
+  color: white;
+}
+
+.evening {
+  background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+  border: 2px solid #e84393;
+  color: white;
+}
+
+.night {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 100%);
+  border: 2px solid #636e72;
+  color: white;
+}
+

@@ -1,0 +1,44 @@
+.number-filter-container {
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.number-filter-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.number-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.even-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.even-number:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
